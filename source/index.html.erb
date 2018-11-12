@@ -4,12 +4,26 @@ title: Le Wagon - Middleman
 
 <div id="home">
   <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
     <p>
-      Middleman is now running!
+      <%= Date.today %>
     </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+
+    <h3 class="text-center">Technologies we are learning</h3>
+
+      <ul>
+      <% ["Ruby", "SQL", "HTML", "CSS", "ERB", "JS", "SCSS"].each do |tech| %>
+        <li><%= tech %></li>
+      <% end %>
+      </ul>
+
+    <a href="#" class="btn btn-primary">Click me!!!</a>
+
+
   </div>
 </div>
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+# - name: Berlin
+#   address: "Rudi-Dutschke-Straße 26, 10969 Berlin"
+# - name: Paris
+#   address: "16, villa Gaudelet 75011 Paris"
+
+
+# # data.cities
+
+# # MIDDLEMAN WILL PARSE THE YML INTO AN ARRAY OF HASHES
+
+# [
+#   {"name" => "Berlin", "address" => "..."},
+#   {"name" => "Paris", "address" => "..."},
+# ]
+
+# berlin:
+#   lat: 52.507090
+#   long: 13.391419
+# paris:
+#   lat: 48.864848
+#   long: 2.379853
+
+# # data.cities
+
+# # MIDDLEMAN WILL PARSE THE YML INTO AN HASH OF HASHES
+
+# {
+#   "berlin" => {"lat" => "52.507090", "long" => "13.391419" },
+#   "paris" => ...
+# }
+
+
+berlin:
+  name: Le Wagon Berlin
+  driver: PhilippvH1
+  description: Ich bin ein Berliner
+  address: Rudi-Dutschke-Straße 26, 10969 Berlin
+paris:
+  name: Le Wagon Paris
+  driver: Papillard
+  description: La vie en Rose
+  address: 16 Villa Gaudelet
+shanghai:
+  name: Le Wagon Shanghai
+  driver: elephantonaleaf
+  description: NY of the East
+  address: WeWork Nanjing Xi Lu
+chengdu:
+  name: Le Wagon Chengdu
+  driver: allenjsx
+  description: Code like Pandas!
+  address: Walnut
+rio:
+  name: Le Wagon rio
+  driver: matleroux
+  description: Carnaval do Brazil!
+  address: 26 Ladeira da Glória, Rio de Janeiro
+shenzhen:
+  name: Le Wagon shenzhen
+  address: Nanshan district
+
